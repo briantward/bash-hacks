@@ -1,0 +1,7 @@
+= bash-hacks
+
+== cp-parallel.sh
+
+An OpenShift parallel copy operation, moving files from one node or pod, where the `oc` client is available, to another pod.  This helps speed up file transfers of many small files where your copy operation is network bound rather than IO bound, for example, with GlusterFS, where a copy of each file must be replicated to many servers.
+
+Originally written by Xavi Hernandez (xhernandez @ datalab.es)
