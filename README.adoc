@@ -5,3 +5,9 @@
 An OpenShift parallel copy operation, moving files from one node or pod, where the `oc` client is available, to another pod.  This helps speed up file transfers of many small files where your copy operation is network bound rather than IO bound, for example, with GlusterFS, where a copy of each file must be replicated to many servers.
 
 Originally written by Xavi Hernandez (xhernandez @ datalab.es)
+
+== tail-color.sh
+
+https://gist.github.com/briantward/68c4f6381fb48f292180b1c147e427ec
+
+A fork and modification from some other work, to color logs while tailing them.
