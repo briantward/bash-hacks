@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# drop this script a the folder of images where you need to update the image date
+# drop this script in the folder of images where you need to update the image date
 # requires exiftool (duh...)
 # slow as it opens and writes the file many times, but could be optimized perhaps...
 
